@@ -51,10 +51,31 @@ h3 {
   font-family: 'Zen Dots', sans-serif;
   color: #909ab3;
   text-transform: uppercase;
+  letter-spacing: 0.26em;
 }
 
 h1 {
   color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+h2 {
+  text-align: right;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+h3 {
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.mirror {
+  color: #242942;
+  margin-top: 0;
+  padding: 0;
+  transform: rotateX(180deg);
 }
  
 .projekte {
