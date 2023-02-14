@@ -25,7 +25,22 @@ p {
   font-family: 'Ubuntu', sans-serif;
 }
 
+main p {
+  color: #f0f4ff;
+  font-size: 15px;
+}
+
+.legende {
+  color: #170f0f;
+}
+
+footer p {
+  color: #e5c6c6;
+}
+
 nav {
+  color: #6d1e17;
+  text-transform: uppercase;
   display: flex;
   flex-direction: row;
 }
@@ -34,15 +49,17 @@ h1,
 h2,
 h3 {
   font-family: 'Zen Dots', sans-serif;
+  color: #909ab3;
+  text-transform: uppercase;
+}
+
+h1 {
+  color: white;
 }
  
 .projekte {
   display: flex;
   flex-direction: row;
   align-items: center;
-  animation: slide 60s linear infinite;
 }
 
-.poster {
-  animation: slide 60s linear infinite;
-}
