@@ -9,6 +9,17 @@ img {
   max-width: 100%;
 }
 
+body {
+  background: rgb(2,0,36);
+background: linear-gradient(180deg, rgba(2,0,36,1) 0%,
+ rgba(25,24,56,1) 6%, rgba(6,6,83,1) 12%, rgba(25,24,56,1) 18%, 
+ rgba(2,0,36,1) 24%, rgba(2,0,36,1) 30%, rgba(25,24,56,1) 36%, 
+ rgba(6,6,83,1) 42%, rgba(25,24,56,1) 48%, rgba(2,0,36,1) 54%, 
+ rgba(2,0,36,1) 60%, rgba(25,24,56,1) 66%, rgba(6,6,83,1) 72%, 
+ rgba(25,24,56,1) 78%, rgba(2,0,36,1) 84%, rgba(2,0,36,1) 90%, 
+ rgba(6,6,83,1) 95%, rgba(6,6,83,1) 100%);
+}
+
 nav,
 p {
   font-family: 'Ubuntu', sans-serif;
@@ -25,3 +36,13 @@ h3 {
   font-family: 'Zen Dots', sans-serif;
 }
  
+.projekte {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  animation: slide 60s linear infinite;
+}
+
+.poster {
+  animation: slide 60s linear infinite;
+}
