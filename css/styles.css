@@ -7,6 +7,21 @@ body {
 img {
   display: block;
   max-width: 100%;
-  image-orientation: from-image;
+}
+
+nav,
+p {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Zen Dots', sans-serif;
 }
  
