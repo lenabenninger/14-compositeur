@@ -11,6 +11,8 @@ img {
 
 html {
   background-color: black;
+  background-image: url(../img/hintergrund-html.jpg);
+  background-size: cover;
   scroll-behavior: smooth;
 }
 
@@ -22,6 +24,7 @@ body {
   rgba(6,6,83,1) 42%, rgba(25,24,56,1) 48%, rgba(2,0,36,1) 54%, 
   rgba(2,0,36,1) 60%, rgba(25,24,56,1) 66%, rgba(6,6,83,1) 72%, 
   rgba(25,24,56,1) 78%, rgba(2,0,36,1) 84%);
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.5);
 }
 
 h1,
@@ -149,7 +152,7 @@ footer {
   color: #e5c6c6;
   padding-top: 140px;
   padding-bottom: 5px;
-  background-image: url(https://i.postimg.cc/W3wb19nt/wireframe-ludwig-goransson.png);
+  background-image: url(../img/footer-background.png);
   background-position: center;
   background-position-y: 20px;
   background-size: 600px;
