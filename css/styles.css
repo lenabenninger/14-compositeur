@@ -9,6 +9,10 @@ img {
   max-width: 100%;
 }
 
+html {
+  background-color: black;
+}
+
 body {
   background: rgb(2,0,36);
 background: linear-gradient(180deg, rgba(2,0,36,1) 0%,
@@ -46,10 +50,15 @@ p em {
   border: 3px solid #843731;
   border-bottom-width: 35px;
   margin-left: 30px;
+  width: 90%;
+  box-sizing: border-box;
 }
 
-footer p {
-  color: #e5c6c6;
+.spotify-code {
+  max-width: 60%;
+  border: 2px solid #843731;
+  margin-left: 90px;
+  margin-bottom: 20px;
 }
 
 nav {
@@ -57,6 +66,25 @@ nav {
   text-transform: uppercase;
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+}
+
+.nav .biografie,
+.nav .film,
+.nav .musik,
+.nav .projekte {
+  border: 2px solid #6d1e17;
+  border-left: none;
+  padding: 3px;
+  flex-grow: 1;
+}
+
+.navigation {
+  text-align: center;
+}
+
+.navigation:first-child {
+  border-left: 2px solid #6d1e17;
 }
 
 h1,
@@ -92,9 +120,28 @@ h3 {
   transform: rotateX(180deg);
 }
  
-.projekte {
+.projekte .poster {
   display: flex;
+  width: 33%;
+  box-sizing: border-box;
   flex-direction: row;
   align-items: center;
+  flex-wrap: wrap;
 }
+
+footer {
+  text-align: center;
+  color: #e5c6c6;
+  font-size: 14px;
+  padding-top: 140px;
+  padding-bottom: 5px;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  background-image: url(https://i.postimg.cc/W3wb19nt/wireframe-ludwig-goransson.png);
+  background-position: center;
+  background-position-y: 20px;
+  background-size: 600px;
+}
+
+
 
