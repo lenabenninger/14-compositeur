@@ -11,80 +11,17 @@ img {
 
 html {
   background-color: black;
+  scroll-behavior: smooth;
 }
 
 body {
   background: rgb(2,0,36);
-background: linear-gradient(180deg, rgba(2,0,36,1) 0%,
- rgba(25,24,56,1) 6%, rgba(6,6,83,1) 12%, rgba(25,24,56,1) 18%, 
- rgba(2,0,36,1) 24%, rgba(2,0,36,1) 30%, rgba(25,24,56,1) 36%, 
- rgba(6,6,83,1) 42%, rgba(25,24,56,1) 48%, rgba(2,0,36,1) 54%, 
- rgba(2,0,36,1) 60%, rgba(25,24,56,1) 66%, rgba(6,6,83,1) 72%, 
- rgba(25,24,56,1) 78%, rgba(2,0,36,1) 84%);
-}
-
-nav,
-p {
-  font-family: 'Ubuntu', sans-serif;
-}
-
-main p {
-  color: #f0f4ff;
-  font-size: 15px;
-  margin-bottom: 30px;
-  margin-left: 10px;
-}
-
-p em {
-  color: #ce5b59;
-}
-
-.legende {
-  color: #170f0f;
-  font-size: 12px;
-  margin-top: -30px;
-  margin-left: 35px;
-}
-
-.foto {
-  border: 3px solid #843731;
-  border-bottom-width: 35px;
-  margin-left: 30px;
-  width: 90%;
-  box-sizing: border-box;
-}
-
-.spotify-code {
-  max-width: 60%;
-  border: 2px solid #843731;
-  margin-left: 90px;
-  margin-bottom: 20px;
-}
-
-nav {
-  color: #6d1e17;
-  text-transform: uppercase;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.nav .biografie,
-.nav .film,
-.nav .musik,
-.nav .projekte {
-  border: 2px solid #6d1e17;
-  border-left: none;
-  padding: 3px;
-  flex-grow: 1;
-}
-
-.navigation {
-  text-align: center;
-}
-
-.navigation:first-child {
-  border-left: 2px solid #6d1e17;
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%,
+  rgba(25,24,56,1) 6%, rgba(6,6,83,1) 12%, rgba(25,24,56,1) 18%, 
+  rgba(2,0,36,1) 24%, rgba(2,0,36,1) 30%, rgba(25,24,56,1) 36%, 
+  rgba(6,6,83,1) 42%, rgba(25,24,56,1) 48%, rgba(2,0,36,1) 54%, 
+  rgba(2,0,36,1) 60%, rgba(25,24,56,1) 66%, rgba(6,6,83,1) 72%, 
+  rgba(25,24,56,1) 78%, rgba(2,0,36,1) 84%);
 }
 
 h1,
@@ -100,17 +37,90 @@ h1 {
   color: white;
   font-size: 30px;
   text-align: center;
+  margin-bottom: -20px;
+  padding: 30px 20px 0 20px;
 }
 
 h2 {
   font-size: 24px;
   text-align: right;
   margin-bottom: -0.5em;
+  margin-right: 10px;
 }
 
 h3 {
   font-size: 13px;
   margin-bottom: -0.5em;
+  margin-left: 10px;
+}
+
+nav,
+nav a{
+  color: #6d1e17;
+  font-size: 18px;
+  font-family: 'Ubuntu', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.nav .biografie,
+.nav .film,
+.nav .musik,
+.nav .projekte {
+  border: 2px solid #6d1e17;
+  border-left: none;
+  padding: 3px;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.navigation:first-child {
+  border-left: 2px solid #6d1e17;
+}
+
+main p {
+  color: #f0f4ff;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 15px;
+  margin: 0 60px 30px 10px;
+}
+
+p em {
+  color: #ce5b59;
+}
+
+.legende {
+  font-style: italic;
+  color: #170f0f;
+  font-size: 12px;
+  margin-top: -30px;
+  margin-left: 35px;
+}
+
+.nolan {
+  margin-top: -45px;
+}
+
+.foto {
+  border: 3px solid #843731;
+  border-bottom-width: 35px;
+  margin-left: 30px;
+  width: 90%;
+  box-sizing: border-box;
+}
+
+.christopher {
+  border-bottom-width: 50px;
+}
+
+.spotify-code {
+  max-width: 60%;
+  border: 2px solid #843731;
+  margin-left: 90px;
+  margin-bottom: 20px;
 }
 
 .mirror {
@@ -120,23 +130,25 @@ h3 {
   transform: rotateX(180deg);
 }
  
-.projekte .poster {
+.projekte {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+}
+
+.filme .poster {
   width: 33%;
   box-sizing: border-box;
-  flex-direction: row;
-  align-items: center;
-  flex-wrap: wrap;
+  border: 1px solid #843731;
 }
 
 footer {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
   text-align: center;
   color: #e5c6c6;
-  font-size: 14px;
   padding-top: 140px;
   padding-bottom: 5px;
-  border-top-right-radius: 50%;
-  border-top-left-radius: 50%;
   background-image: url(https://i.postimg.cc/W3wb19nt/wireframe-ludwig-goransson.png);
   background-position: center;
   background-position-y: 20px;
