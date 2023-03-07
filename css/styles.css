@@ -99,24 +99,16 @@ p em {
   font-style: italic;
   color: #170f0f;
   font-size: 12px;
-  margin-top: -30px;
-  margin-left: 35px;
-}
-
-.nolan {
   margin-top: -45px;
+  margin-left: 35px;
 }
 
 .foto {
   border: 3px solid #843731;
-  border-bottom-width: 35px;
+  border-bottom-width: 50px;
   margin-left: 30px;
   width: 90%;
   box-sizing: border-box;
-}
-
-.christopher {
-  border-bottom-width: 50px;
 }
 
 .spotify-code {
@@ -139,7 +131,7 @@ p em {
   flex-wrap: wrap-reverse;
 }
 
-.filme .poster {
+.projekte .poster {
   width: 33%;
   box-sizing: border-box;
   border: 1px solid #843731;
